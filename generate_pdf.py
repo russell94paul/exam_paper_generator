@@ -16,15 +16,14 @@ frs_q2 = data['FRS_Q2']
 frs_q3 = data['FRS_Q3']
 frs_q4 = data['FRS_Q4']
 
-
-
-
 # Multiple Choice - 40 questions total
+random_40_mcqs = mcq.sample(n = 40)
+print(random_40_mcqs)
 
 
 
 
-# Declaring each column by question number
+
 
 
 
